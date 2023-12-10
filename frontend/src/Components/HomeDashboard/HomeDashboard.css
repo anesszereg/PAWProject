@@ -1,0 +1,203 @@
+.firstLine{
+    display: flex;
+    align-items: center;
+    padding-inline: 25px;
+}
+.secondLine{
+    display: flex;
+    align-items:flex-start;
+    margin-top: 15px;
+    
+}
+/*Analytics*/
+.analyticsCard {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #463DFF;
+  width: 600px;
+  height: 235px;
+  color: white;
+  overflow-y: hidden;
+}
+.analyticsCard h2{
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 6px;
+}
+.analyticsCard h4{
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 0;
+}
+.textes p{
+     font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+}
+.textes {
+  text-align: start;
+  width: 100%;padding: 10px;
+}
+.circleImage {
+  display: grid;
+  place-items: center;
+}
+.stats {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  margin-left: 25px;
+  gap:5px;
+}
+.stats div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.stats span{
+    background-color:#241ADF;
+    border-radius: 10%;
+    margin-right: 5px;
+    width: 40px;
+}
+.stats p{
+    font-size: 15px;
+}
+
+/*Best student*/
+.BestStudent{
+
+    border-radius: 3px;
+    width: 320px;
+    height: 237px;
+    margin-left: 15px;
+    text-align: left;
+    padding-left: 15px;
+    position: relative;
+    color: grey;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.BestStudent img{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+.BestStudent h4,.classProgress h4{
+    color: grey;
+    font-weight: 400;
+    font-size: 17px;
+}
+.BestStudent h2{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.BestStudent span {
+    color: #54D62C;
+    border:  solid 2px #54D62C ;
+    border-radius: 15px;
+    padding-inline: 12px;
+    padding-block: 3px;
+    font-size: 13px;
+    background-color: #54D62C40;
+    position: absolute;
+    bottom: 10px;
+}
+
+/*class graphs*/
+.moduleCourses{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    width: 392px;
+    height: 367px;
+    margin-left: 25px;
+    color: grey;
+}
+.moduleCourses .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+}
+.moduleCourses .top  div{
+    text-align: start;
+}
+.moduleCourses .top  div > * {
+    margin: 0;
+    color: #333333;
+}
+.moduleCourses .top h2{
+    margin-top: 15px;
+    font-weight: 500;
+
+}
+.moduleCourses .top p{
+    font-weight: 500;
+    font-size: 11px;
+}
+.modules{
+    margin-top: 50px;
+}
+.moduleCart{
+   display: flex;
+   align-items: center;
+   margin-left: 5%;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 5px;
+}
+.moduleCart .text{
+    text-align: left;
+    margin-left: 5px;
+}
+.moduleCart .text > *{
+    margin: 0;
+  
+    color: black;
+}
+.moduleCart .text h2{
+    font-size: 17px;
+    font-weight: 600;
+}
+.moduleCart .text p{
+    font-size: 11px;
+      font-weight: 500;
+}
+.classProgress{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    width: 340px;
+    height: 237px;
+    margin-left: 15px;
+    position: relative;
+    color: grey;
+    text-align: left;
+    padding-left: 15px;
+}
+.classProgress img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.tableClass{
+     color: #54D62C;
+    border:  solid 2px #54D62C ;
+    border-radius: 15px;
+    padding-inline: 14px;
+    padding-block: 3px;
+    font-size: 13px;
+    background-color: #54D62C40;
+}
